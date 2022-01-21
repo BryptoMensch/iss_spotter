@@ -28,6 +28,7 @@ module.exports = { nextISSTimesForMyLocation };
 // const request = require("request");
 
 // // FETCH MY IP ************
+
 // const fetchMyIP = function (callback) {
 // 	request("https://api.ipify.org?format=json", (error, response, body) => {
 // 		if (error) return callback(error, null);
@@ -46,6 +47,7 @@ module.exports = { nextISSTimesForMyLocation };
 // };
 
 // // FETCH COORD BY IP ************
+
 // const fetchCoordsByIP = (IP, callback) => {
 // 	const request = require("request");
 // 	request(`https://freegeoip.app/json/${IP}`, function (error, response, body) {
